@@ -3,7 +3,7 @@
 #include "cow.h"
 
 int main(void) {
-	struct cow *my_cow;
+	cow *my_cow;
 	my_cow = new cow("Hildy", 7, PET);
 
 	std::cout << my_cow->get_name() << " is a type - " <<
